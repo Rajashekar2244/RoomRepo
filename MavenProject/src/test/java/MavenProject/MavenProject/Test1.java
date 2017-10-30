@@ -14,6 +14,7 @@ public class Test1 {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
+		System.out.println("widows opened Successfully");
 	}
 @Test
 void firstMethod()
